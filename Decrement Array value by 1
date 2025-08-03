@@ -1,0 +1,7 @@
+int* decrementArrayElements(int numbers[], int size) {
+    // Code here
+    for(int i = 0; i < size; i++){
+        numbers[i] -= 1;
+    }
+    return numbers;
+}
